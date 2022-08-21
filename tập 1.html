@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>script tag example 01</title>
+</head>
+<body>
+    <p id="demo">hello HTML</p>
+    <button type="button" onclick="myFunction()">change to Javascript</button>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "helo JavaScript";
+      }
+    <// document.... là lấy bểu tượng tên id là "demo" trong file html ra và thay thế bằng "hello Javascript">
+    </script>
+    <br>
+<p id="demo"> hello HTML</p>
+<button type="button" onclick="myFunction()">change to Javascript</button>
+<script>
+    function myFunction() {
+        document.getElementById("demo").innerHTML = "tui là thẻ p nek"
+    }
+
+</script>
+<button type="button" onclick="myFunction()">bấm tui nek</button>
+<!--<script src="myScript.ms.js"></script>-->
+<script src="./js/script.js"></script>
+<button onclick="alert('hello Thành CG')">nhấn vô thành CG</button>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thư viện jQuery</title>
+</head>
+<body>
+<p id="pTag">hello World</p>
+  <button>Click Me</button>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+          $(document).ready(function (){
+            //() hàm ẩn danh
+            $("button").click(function () {
+              // alert("helle thuận nek")
+              // document.getElementById("pTag").innerHTML= "hello Thuận"
+              $("p")[0].innerHTML= "hello thuận"
+            })
+          })
+        </script>
+
+</body>
+</html>
